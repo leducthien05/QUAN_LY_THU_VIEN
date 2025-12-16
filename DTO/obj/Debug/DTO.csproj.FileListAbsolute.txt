@@ -1,0 +1,6 @@
+D:\PMQL\Project\QLTV\DTO\bin\Debug\DTO.dll
+D:\PMQL\Project\QLTV\DTO\bin\Debug\DTO.pdb
+D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.dll
+D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.pdb
