@@ -1,0 +1,10 @@
+D:\PMQL\Project\QLTV\DAL\bin\Debug\DAL.dll.config
+D:\PMQL\Project\QLTV\DAL\bin\Debug\DAL.dll
+D:\PMQL\Project\QLTV\DAL\bin\Debug\DAL.pdb
+D:\PMQL\Project\QLTV\DAL\bin\Debug\DTO.dll
+D:\PMQL\Project\QLTV\DAL\bin\Debug\DTO.pdb
+D:\PMQL\Project\QLTV\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\PMQL\Project\QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\PMQL\Project\QLTV\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\PMQL\Project\QLTV\DAL\obj\Debug\DAL.dll
+D:\PMQL\Project\QLTV\DAL\obj\Debug\DAL.pdb
