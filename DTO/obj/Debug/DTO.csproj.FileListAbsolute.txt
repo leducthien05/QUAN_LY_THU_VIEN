@@ -4,3 +4,9 @@ D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.dll
 D:\PMQL\Project\QLTV\DTO\obj\Debug\DTO.pdb
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\bin\Debug\DTO.dll
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\bin\Debug\DTO.pdb
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\obj\Debug\DTO.dll
+C:\Users\ngoqu\source\repos\leducthien05\QUAN_LY_THU_VIEN\DTO\obj\Debug\DTO.pdb

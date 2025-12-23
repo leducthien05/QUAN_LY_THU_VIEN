@@ -57,5 +57,10 @@ namespace QLTV
         {
             LoadControl(new UserControlMuon());
         }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            LoadControl(new ThongKe());
+        }
     }
 }

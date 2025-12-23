@@ -146,7 +146,7 @@
             this.btnSach.Image = global::QLTV.Properties.Resources.agenda;
             this.btnSach.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSach.Location = new System.Drawing.Point(4, 60);
-            this.btnSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSach.Margin = new System.Windows.Forms.Padding(4);
             this.btnSach.Name = "btnSach";
             this.btnSach.Size = new System.Drawing.Size(241, 48);
             this.btnSach.TabIndex = 1;
@@ -170,7 +170,7 @@
             this.btnDocGia.Image = global::QLTV.Properties.Resources.newspaper;
             this.btnDocGia.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnDocGia.Location = new System.Drawing.Point(4, 116);
-            this.btnDocGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDocGia.Margin = new System.Windows.Forms.Padding(4);
             this.btnDocGia.Name = "btnDocGia";
             this.btnDocGia.Size = new System.Drawing.Size(241, 48);
             this.btnDocGia.TabIndex = 2;
@@ -194,7 +194,7 @@
             this.btnNhanVien.Image = global::QLTV.Properties.Resources.employee;
             this.btnNhanVien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNhanVien.Location = new System.Drawing.Point(4, 172);
-            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(241, 48);
             this.btnNhanVien.TabIndex = 3;
@@ -218,7 +218,7 @@
             this.btnMuon.Image = global::QLTV.Properties.Resources.book;
             this.btnMuon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMuon.Location = new System.Drawing.Point(4, 228);
-            this.btnMuon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMuon.Margin = new System.Windows.Forms.Padding(4);
             this.btnMuon.Name = "btnMuon";
             this.btnMuon.Size = new System.Drawing.Size(241, 48);
             this.btnMuon.TabIndex = 4;
@@ -242,7 +242,7 @@
             this.btnTra.Image = global::QLTV.Properties.Resources._return;
             this.btnTra.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTra.Location = new System.Drawing.Point(4, 284);
-            this.btnTra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTra.Margin = new System.Windows.Forms.Padding(4);
             this.btnTra.Name = "btnTra";
             this.btnTra.Size = new System.Drawing.Size(241, 48);
             this.btnTra.TabIndex = 5;
@@ -265,12 +265,13 @@
             this.btnThongKe.Image = global::QLTV.Properties.Resources.profit;
             this.btnThongKe.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnThongKe.Location = new System.Drawing.Point(4, 340);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(241, 48);
             this.btnThongKe.TabIndex = 6;
             this.btnThongKe.Text = "Thống kê";
             this.btnThongKe.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnQuyDinh
             // 
@@ -288,7 +289,7 @@
             this.btnQuyDinh.Image = global::QLTV.Properties.Resources.gear;
             this.btnQuyDinh.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnQuyDinh.Location = new System.Drawing.Point(4, 396);
-            this.btnQuyDinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQuyDinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuyDinh.Name = "btnQuyDinh";
             this.btnQuyDinh.Size = new System.Drawing.Size(241, 55);
             this.btnQuyDinh.TabIndex = 7;
