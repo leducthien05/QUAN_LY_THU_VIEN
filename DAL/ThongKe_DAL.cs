@@ -21,7 +21,7 @@ namespace DAL
                                 dm.TenDM,
                                 s.SoLuong,
                                 s.GiaSach,
-                                s.NXB
+                                s.NamXB
                             FROM SACH s
                             INNER JOIN TACGIA tg ON s.ID_TG = tg.ID_TG
                             INNER JOIN NXB nxb ON s.ID_NXB = nxb.ID_NXB

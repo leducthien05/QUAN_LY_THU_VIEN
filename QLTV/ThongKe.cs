@@ -20,6 +20,17 @@ namespace QLTV
             InitializeComponent();
         }
         ThongKe_BUS tkb = new ThongKe_BUS();
+        private void LOAD_DATA()
+        {
+            DataTable dt = tkb.Load_Sach();
+            dataGridView1.DataSource = dt;
+            DataTable dt2 = tkb.Load_DocGia();
+            dataGridView2.DataSource = dt2;
+            DataTable dt3 = tkb.Load_PhieuMuonTra();
+            dataGridView3.DataSource = dt3;
+            DataTable dt4 = tkb.Load_NhanVien();
+            dataGridView4.DataSource = dt4;
+        }
         private void guna2GradientTileButton3_Click(object sender, EventArgs e)
         {
             DTO_ThongKeSach dk = new DTO_ThongKeSach();
@@ -43,6 +54,8 @@ namespace QLTV
                 dk.NamTu = namtu;
             if (int.TryParse(txtNamXBden.Text, out int namden))
                 dk.NamDen = namden;
+            DataTable dt = tkb.ThongKe_Sach(dk);
+            dataGridView1.DataSource = dt;
         }
 
         private void guna2GradientTileButton5_Click(object sender, EventArgs e)
@@ -76,6 +89,8 @@ namespace QLTV
             DTO_ThongKeDocGia dk = new DTO_ThongKeDocGia();
             dk.TenDocGia = txtDocGia.Text.Trim();
             dk.TrangThai = comboboxTrangThai.Text.Trim();
+            DataTable dt = tkb.ThongKe_DocGia(dk);
+            dataGridView2.DataSource = dt;
         }
 
         private void guna2GradientTileButton2_Click(object sender, EventArgs e)
@@ -105,6 +120,8 @@ namespace QLTV
             dk.LoaiPhieu = txtLoaiPhieu.Text.Trim();
             dk.NgayMuonTu = DATEngaymuontu.Checked ? (DateTime?)DATEngaymuontu.Value : null;
             dk.NgayMuonDen = DATEngaymuonden.Checked ? (DateTime?)DATEngaymuonden.Value : null;
+            DataTable dt = tkb.ThongKeMuonTra(dk);
+            dataGridView3.DataSource = dt;
         }
 
         private void guna2GradientTileButton6_Click(object sender, EventArgs e)
@@ -135,6 +152,7 @@ namespace QLTV
             dk.TrangThai = comboboxTrangThai.Text.Trim();
             dk.ID_BoPhan = comboBoPhan.SelectedValue?.ToString();
             dk.ID_ChucVu = comboChucVu.SelectedValue?.ToString();
+            DataTable dt = tkb.ThongKe_NhanVien(dk);
         }
 
         private void guna2GradientTileButton8_Click(object sender, EventArgs e)
@@ -193,10 +211,12 @@ namespace QLTV
             if (guna2TabControl1.SelectedIndex == 1 || guna2TabControl1.SelectedIndex == 4)
             {
                 loadCombobox();
+                LOAD_DATA();
             }
             if (guna2TabControl1.SelectedIndex == 2 || guna2TabControl1.SelectedIndex == 3 || guna2TabControl1.SelectedIndex == 4)
             {
                 Loadcombobox2();
+                LOAD_DATA();
             }
         }
 
