@@ -16,5 +16,16 @@ namespace QLTV
         {
             InitializeComponent();
         }
+
+        //private void btnThem_Click(object sender, EventArgs e)
+        //{
+
+        //}
+
+        private void btnThem_Click_1(object sender, EventArgs e)
+        {
+            FormPhieuMuon f = new FormPhieuMuon();
+            f.ShowDialog();
+        }
     }
 }
