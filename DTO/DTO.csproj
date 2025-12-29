@@ -55,6 +55,7 @@
     <Compile Include="DTO_ThongKeMuonTra.cs" />
     <Compile Include="DTO_ThongKeNhanVien.cs" />
     <Compile Include="DTO_ThongKeSach.cs" />
+    <Compile Include="DTO_TongQuan.cs" />
     <Compile Include="NXB_DTO.cs" />
     <Compile Include="Phieu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

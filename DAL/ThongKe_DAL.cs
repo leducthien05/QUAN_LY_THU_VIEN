@@ -14,14 +14,14 @@ namespace DAL
         {
             string sql = @"
                             SELECT 
-                                s.ID_Sach,
-                                s.TenSach,
-                                tg.TenTG,
-                                nxb.TenNXB,
-                                dm.TenDM,
-                                s.SoLuong,
-                                s.GiaSach,
-                                s.NamXB
+                                s.ID_Sach as [ID Sách],
+                                s.TenSach as [Tên Sách],
+                                tg.TenTG as [Tên tác giả],
+                                nxb.TenNXB as [Nhà Xuất bản],
+                                dm.TenDM as [Thể loại],
+                                s.SoLuong as [Số lượng],
+                                s.GiaSach as [Giá sách],
+                                s.NamXB as [Năm xuất bản]
                             FROM SACH s
                             INNER JOIN TACGIA tg ON s.ID_TG = tg.ID_TG
                             INNER JOIN NXB nxb ON s.ID_NXB = nxb.ID_NXB

@@ -20,7 +20,7 @@ namespace DAL
             string sql = @"
                             SELECT *
                             FROM PHIEU pm
-                            INNER JOIN DOCGIA dg ON pm.ID_DG = dg.ID_DG
+                            INNER JOIN DOCGIA dg ON pm.ID_DG = dg.ID_DocGia
                             WHERE 1 = 1";
             if (!string.IsNullOrEmpty(dk.LoaiPhieu))
             {

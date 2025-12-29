@@ -32,9 +32,9 @@ namespace QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -52,7 +52,6 @@ namespace QLTV
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
@@ -206,6 +205,7 @@ namespace QLTV
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -213,7 +213,6 @@ namespace QLTV
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
@@ -263,6 +262,7 @@ namespace QLTV
             this.guna2CustomGradientPanel11.SuspendLayout();
             this.tableLayoutPanel30.SuspendLayout();
             this.tableLayoutPanel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ContextMenuStrip1
@@ -490,7 +490,6 @@ namespace QLTV
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(135, 68);
             this.label17.TabIndex = 4;
-            this.label17.Text = "label17";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label18
@@ -503,7 +502,6 @@ namespace QLTV
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(135, 68);
             this.label18.TabIndex = 5;
-            this.label18.Text = "label18";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
@@ -516,7 +514,6 @@ namespace QLTV
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(135, 68);
             this.label19.TabIndex = 6;
-            this.label19.Text = "label19";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
@@ -529,28 +526,7 @@ namespace QLTV
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(135, 68);
             this.label20.TabIndex = 7;
-            this.label20.Text = "label20";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // chart1
-            // 
-            this.chart1.BackColor = System.Drawing.Color.Transparent;
-            this.chart1.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(296, 3);
-            this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(414, 437);
-            this.chart1.TabIndex = 3;
-            this.chart1.Text = "chart1";
             // 
             // guna2CustomGradientPanel3
             // 
@@ -657,7 +633,6 @@ namespace QLTV
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 69);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -670,7 +645,6 @@ namespace QLTV
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 69);
             this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -683,7 +657,6 @@ namespace QLTV
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 69);
             this.label11.TabIndex = 4;
-            this.label11.Text = "label11";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -696,7 +669,6 @@ namespace QLTV
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(124, 73);
             this.label12.TabIndex = 5;
-            this.label12.Text = "label12";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -709,7 +681,6 @@ namespace QLTV
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(124, 69);
             this.label13.TabIndex = 6;
-            this.label13.Text = "label13";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
@@ -722,7 +693,6 @@ namespace QLTV
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(124, 69);
             this.label14.TabIndex = 7;
-            this.label14.Text = "label14";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
@@ -735,7 +705,6 @@ namespace QLTV
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(124, 69);
             this.label15.TabIndex = 8;
-            this.label15.Text = "label15";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label16
@@ -748,7 +717,6 @@ namespace QLTV
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(124, 73);
             this.label16.TabIndex = 9;
-            this.label16.Text = "label16";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage2
@@ -2843,7 +2811,6 @@ namespace QLTV
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(158, 39);
             this.label69.TabIndex = 2;
-            this.label69.Text = "label69";
             this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label70
@@ -2856,7 +2823,6 @@ namespace QLTV
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(158, 39);
             this.label70.TabIndex = 3;
-            this.label70.Text = "label70";
             this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label71
@@ -2869,7 +2835,6 @@ namespace QLTV
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(158, 39);
             this.label71.TabIndex = 4;
-            this.label71.Text = "label71";
             this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label72
@@ -2882,7 +2847,6 @@ namespace QLTV
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(158, 43);
             this.label72.TabIndex = 5;
-            this.label72.Text = "label72";
             this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label73
@@ -2895,7 +2859,6 @@ namespace QLTV
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(158, 39);
             this.label73.TabIndex = 6;
-            this.label73.Text = "label73";
             this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label74
@@ -2908,7 +2871,6 @@ namespace QLTV
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(158, 39);
             this.label74.TabIndex = 7;
-            this.label74.Text = "label74";
             this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label75
@@ -2921,7 +2883,6 @@ namespace QLTV
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(158, 39);
             this.label75.TabIndex = 8;
-            this.label75.Text = "label75";
             this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label76
@@ -2934,8 +2895,25 @@ namespace QLTV
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(158, 43);
             this.label76.TabIndex = 9;
-            this.label76.Text = "label76";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Transparent;
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
+            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend4.Name = "Legend1";
+            this.chart1.Legends.Add(legend4);
+            this.chart1.Location = new System.Drawing.Point(296, 3);
+            this.chart1.Name = "chart1";
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chart1.Series.Add(series4);
+            this.chart1.Size = new System.Drawing.Size(414, 437);
+            this.chart1.TabIndex = 3;
+            this.chart1.Text = "chart1";
             // 
             // ThongKe
             // 
@@ -2953,7 +2931,6 @@ namespace QLTV
             this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
@@ -3022,6 +2999,7 @@ namespace QLTV
             this.tableLayoutPanel30.PerformLayout();
             this.tableLayoutPanel31.ResumeLayout(false);
             this.tableLayoutPanel31.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3186,7 +3164,6 @@ namespace QLTV
         private Guna.UI2.WinForms.Guna2ComboBox comboBoPhan;
         private System.Windows.Forms.Label label81;
         private Guna.UI2.WinForms.Guna2ComboBox comboboxTrangThai;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
@@ -3200,5 +3177,6 @@ namespace QLTV
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel35;
         private System.Windows.Forms.DataGridView dataGridView4;
+        private Chart chart1;
     }
 }

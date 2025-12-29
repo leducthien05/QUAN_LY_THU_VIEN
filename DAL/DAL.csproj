@@ -63,6 +63,7 @@
     <Compile Include="ThongKeMuonTra_DAL.cs" />
     <Compile Include="ThongKeNhanVien_DAL.cs" />
     <Compile Include="ThongKe_DAL.cs" />
+    <Compile Include="TongQuan_DAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
