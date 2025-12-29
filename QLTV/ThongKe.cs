@@ -347,6 +347,24 @@ namespace QLTV
             }
         }
 
+        private void guna2TextBox12_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void guna2TextBox13_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox14_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

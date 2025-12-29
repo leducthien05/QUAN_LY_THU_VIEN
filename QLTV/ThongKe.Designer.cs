@@ -32,9 +32,9 @@ namespace QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -313,6 +313,7 @@ namespace QLTV
             this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.White;
             this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
             this.guna2TabControl1.SelectedIndexChanged += new System.EventHandler(this.guna2TabControl1_SelectedIndexChanged);
+            this.guna2TabControl1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // tabPage1
             // 
@@ -1043,6 +1044,7 @@ namespace QLTV
             this.txtNamXBtu.SelectedText = "";
             this.txtNamXBtu.Size = new System.Drawing.Size(142, 37);
             this.txtNamXBtu.TabIndex = 2;
+            this.txtNamXBtu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // txtNamXBden
             // 
@@ -1064,6 +1066,7 @@ namespace QLTV
             this.txtNamXBden.SelectedText = "";
             this.txtNamXBden.Size = new System.Drawing.Size(143, 37);
             this.txtNamXBden.TabIndex = 3;
+            this.txtNamXBden.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // tableLayoutPanel13
             // 
@@ -1128,6 +1131,7 @@ namespace QLTV
             this.txtGiatu.SelectedText = "";
             this.txtGiatu.Size = new System.Drawing.Size(142, 37);
             this.txtGiatu.TabIndex = 2;
+            this.txtGiatu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // txtGiaden
             // 
@@ -1149,6 +1153,7 @@ namespace QLTV
             this.txtGiaden.SelectedText = "";
             this.txtGiaden.Size = new System.Drawing.Size(143, 37);
             this.txtGiaden.TabIndex = 3;
+            this.txtGiaden.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // tableLayoutPanel8
             // 
@@ -1213,6 +1218,7 @@ namespace QLTV
             this.txtTonKhotu.SelectedText = "";
             this.txtTonKhotu.Size = new System.Drawing.Size(142, 37);
             this.txtTonKhotu.TabIndex = 2;
+            this.txtTonKhotu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // txtTonKhoden
             // 
@@ -1234,6 +1240,7 @@ namespace QLTV
             this.txtTonKhoden.SelectedText = "";
             this.txtTonKhoden.Size = new System.Drawing.Size(143, 37);
             this.txtTonKhoden.TabIndex = 3;
+            this.txtTonKhoden.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // label27
             // 
@@ -1346,6 +1353,7 @@ namespace QLTV
             this.txtSLtu.SelectedText = "";
             this.txtSLtu.Size = new System.Drawing.Size(142, 37);
             this.txtSLtu.TabIndex = 2;
+            this.txtSLtu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // txtSLden
             // 
@@ -1367,6 +1375,7 @@ namespace QLTV
             this.txtSLden.SelectedText = "";
             this.txtSLden.Size = new System.Drawing.Size(143, 37);
             this.txtSLden.TabIndex = 3;
+            this.txtSLden.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // guna2CustomGradientPanel2
             // 
@@ -1536,6 +1545,8 @@ namespace QLTV
             this.guna2TextBox14.SelectedText = "";
             this.guna2TextBox14.Size = new System.Drawing.Size(155, 37);
             this.guna2TextBox14.TabIndex = 2;
+            this.guna2TextBox14.TextChanged += new System.EventHandler(this.guna2TextBox14_TextChanged);
+            this.guna2TextBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // guna2TextBox15
             // 
@@ -1557,6 +1568,8 @@ namespace QLTV
             this.guna2TextBox15.SelectedText = "";
             this.guna2TextBox15.Size = new System.Drawing.Size(157, 37);
             this.guna2TextBox15.TabIndex = 3;
+            this.guna2TextBox15.TextChanged += new System.EventHandler(this.guna2TextBox15_TextChanged);
+            this.guna2TextBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // tableLayoutPanel19
             // 
@@ -1621,6 +1634,8 @@ namespace QLTV
             this.guna2TextBox12.SelectedText = "";
             this.guna2TextBox12.Size = new System.Drawing.Size(155, 37);
             this.guna2TextBox12.TabIndex = 2;
+            this.guna2TextBox12.TextChanged += new System.EventHandler(this.guna2TextBox12_TextChanged);
+            this.guna2TextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // guna2TextBox13
             // 
@@ -1642,6 +1657,8 @@ namespace QLTV
             this.guna2TextBox13.SelectedText = "";
             this.guna2TextBox13.Size = new System.Drawing.Size(157, 37);
             this.guna2TextBox13.TabIndex = 3;
+            this.guna2TextBox13.TextChanged += new System.EventHandler(this.guna2TextBox13_TextChanged);
+            this.guna2TextBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo);
             // 
             // label38
             // 
@@ -2900,17 +2917,17 @@ namespace QLTV
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.Transparent;
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(296, 3);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart1.Series.Add(series4);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(414, 437);
             this.chart1.TabIndex = 3;
             this.chart1.Text = "chart1";
