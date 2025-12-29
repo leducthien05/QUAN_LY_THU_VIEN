@@ -28,3 +28,13 @@ D:\PMQLTV2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\PMQLTV2\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\PMQLTV2\DAL\obj\Debug\DAL.dll
 D:\PMQLTV2\DAL\obj\Debug\DAL.pdb
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\bin\Debug\DAL.dll.config
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\bin\Debug\DTO.dll
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\bin\Debug\DTO.pdb
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\Source\Repos\QUAN_LY_THU_VIEN\DAL\obj\Debug\DAL.pdb

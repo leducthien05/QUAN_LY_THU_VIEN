@@ -27,17 +27,29 @@ namespace DAL
         }
         public void UpdateTacGia(TacGia tg)
         {
-            SqlCommand cmd = new SqlCommand("UPDATE TACGIA SET TenTG = @TenTG, QuocGia = @QuocGia WHERE MaTG = @MaTG");
-            cmd.Parameters.AddWithValue("@MaTG", tg.MaTG);
+            SqlCommand cmd = new SqlCommand("UPDATE TACGIA SET TenTG = @TenTG, QuocGia = @QuocGia WHERE ID_TG = @ID_TG");
+            cmd.Parameters.AddWithValue("@ID_TG", tg.MaTG);
             cmd.Parameters.AddWithValue("@TenTG", tg.TenTG);
             cmd.Parameters.AddWithValue("@QuocGia", tg.QuocGia);
             ExecuteNonQuery(cmd);
         }
         public void DeleteTacGia(string maTG)
         {
-            SqlCommand cmd = new SqlCommand("DELETE FROM TACGIA WHERE MaTG = @MaTG");
-            cmd.Parameters.AddWithValue("@MaTG", maTG);
+            SqlCommand cmd = new SqlCommand("DELETE FROM TACGIA WHERE ID_TG = @ID_TG");
+            cmd.Parameters.AddWithValue("@ID_TG", maTG);
             ExecuteNonQuery(cmd);
         }
+
+        public DataTable Search(string tenTG)
+        {
+            string sql = @"SELECT * FROM TACGIA 
+                   WHERE TenTG LIKE N'%' + @TenTG + '%'";
+
+            SqlCommand cmd = new SqlCommand(sql);
+            cmd.Parameters.Add("@TenTG", SqlDbType.NVarChar, 100).Value = tenTG;
+
+            return LoadDataSearch(cmd);
+        }
+
     }
 }
