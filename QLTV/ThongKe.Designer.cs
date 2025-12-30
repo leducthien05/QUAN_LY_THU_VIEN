@@ -32,9 +32,9 @@ namespace QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -52,6 +52,7 @@ namespace QLTV
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
@@ -205,7 +206,6 @@ namespace QLTV
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2TabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -213,6 +213,7 @@ namespace QLTV
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
@@ -262,7 +263,6 @@ namespace QLTV
             this.guna2CustomGradientPanel11.SuspendLayout();
             this.tableLayoutPanel30.SuspendLayout();
             this.tableLayoutPanel31.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ContextMenuStrip1
@@ -528,6 +528,24 @@ namespace QLTV
             this.label20.Size = new System.Drawing.Size(135, 68);
             this.label20.TabIndex = 7;
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(296, 3);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(414, 437);
+            this.chart1.TabIndex = 3;
+            this.chart1.Text = "chart1";
             // 
             // guna2CustomGradientPanel3
             // 
@@ -2024,6 +2042,7 @@ namespace QLTV
             this.DATEngaymuontu.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DATEngaymuontu.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DATEngaymuontu.Name = "DATEngaymuontu";
+            this.DATEngaymuontu.ShowCheckBox = true;
             this.DATEngaymuontu.Size = new System.Drawing.Size(462, 45);
             this.DATEngaymuontu.TabIndex = 23;
             this.DATEngaymuontu.Value = new System.DateTime(2025, 12, 15, 23, 9, 36, 47);
@@ -2040,6 +2059,7 @@ namespace QLTV
             this.DATEngaymuonden.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DATEngaymuonden.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DATEngaymuonden.Name = "DATEngaymuonden";
+            this.DATEngaymuonden.ShowCheckBox = true;
             this.DATEngaymuonden.Size = new System.Drawing.Size(462, 45);
             this.DATEngaymuonden.TabIndex = 24;
             this.DATEngaymuonden.Value = new System.DateTime(2025, 12, 15, 23, 9, 50, 847);
@@ -2914,24 +2934,6 @@ namespace QLTV
             this.label76.TabIndex = 9;
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // chart1
-            // 
-            this.chart1.BackColor = System.Drawing.Color.Transparent;
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(296, 3);
-            this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(414, 437);
-            this.chart1.TabIndex = 3;
-            this.chart1.Text = "chart1";
-            // 
             // ThongKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2948,6 +2950,7 @@ namespace QLTV
             this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
@@ -3016,7 +3019,6 @@ namespace QLTV
             this.tableLayoutPanel30.PerformLayout();
             this.tableLayoutPanel31.ResumeLayout(false);
             this.tableLayoutPanel31.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }

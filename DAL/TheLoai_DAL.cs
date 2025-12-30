@@ -21,7 +21,7 @@ namespace DAL
             SqlCommand cmd = new SqlCommand(@"INSERT INTO DANHMUC (ID_DM, TenDM, ID_DanhMucCha) VALUES (@ID_DM, @TenDM, @ID_DanhMucCha)");
             cmd.Parameters.Add("@ID_DM", SqlDbType.NVarChar, 100).Value = tl.ID_DM;
             cmd.Parameters.Add("@TenDM", SqlDbType.NVarChar, 100).Value = tl.TenDM;
-            cmd.Parameters.Add("@ID_DanhMucCha", SqlDbType.NVarChar, 100).Value = tl.ID_DanhMucCha;
+            cmd.Parameters.AddWithValue("@ID_DanhMucCha", (object)tl.ID_DanhMucCha ?? DBNull.Value);
             ExecuteNonQuery(cmd);
         }
 
